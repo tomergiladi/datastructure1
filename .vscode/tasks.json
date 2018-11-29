@@ -1,0 +1,76 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build current file",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${relativeFile}",
+                "-o",
+                "${fileDirname}/bin/build.exe",
+                "-g"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build current dir",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-Wall",
+                "-pedantic-errors",
+                "-Werror",
+                "${fileDirname}/*.cpp",
+                "-o",
+                "${fileDirname}/bin/build",
+                "-g"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build makefile",
+            "type": "shell",
+            "command": "mingw32-make.exe",
+            "args": [],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo",
+            "args": [
+                "${fileBasename}"
+            ]
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo",
+            "args": [
+                "${fileBasename}"
+            ]
+        }
+    ]
+}
