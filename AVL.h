@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <cstdlib>
 #include <iostream>
 #include <memory>
 using std::cout;
@@ -87,7 +87,7 @@ class AVLDict {
             auto parent = this->parent.lock();
             this->left = left->right;
             if (left->right)
-                left->right->parent = this->weak_from_this();
+                left->right->parent = this->shared_from_this();
             left->right = this->shared_from_this();
             this->parent = left;
             left->parent = parent;
@@ -117,9 +117,9 @@ class AVLDict {
 
    public:
     int size;
-    AVLDict() : size(8) {
+    AVLDict() : size(0) {
     }
-    void insert(T key, U value) {
+    auto insert(T key, U value) -> shared_ptr<node> {
         // insert(key, value, this->head);
         shared_ptr<node> parent = nullptr;
         auto* newNode = &(this->head);
@@ -139,16 +139,10 @@ class AVLDict {
             size++;
             fixFrom(*newNode);
         }
+        return newNode ? *newNode : nullptr;
     }
-    void deleteByKey(T key) {
-        auto nodeToDelete = this->head;
-        while (nodeToDelete && nodeToDelete->key != key) {
-            if (nodeToDelete->key > key) {
-                nodeToDelete = nodeToDelete->left;
-            } else {
-                nodeToDelete = nodeToDelete->right;
-            }
-        }
+    void deleteByNode(shared_ptr<node> nodeToDelete){
+        this->size--;
         auto fix = nodeToDelete->parent.lock();
         if (!(nodeToDelete->left) && !(nodeToDelete->right)) {
             nodeToDelete->removeFromParent(nullptr);
@@ -177,6 +171,18 @@ class AVLDict {
             nodeToDelete->removeFromParent(swapWith);
         }
         fixFrom(fix);
+
+    }
+    void deleteByKey(T key) {
+        auto nodeToDelete = this->head;
+        while (nodeToDelete && nodeToDelete->key != key) {
+            if (nodeToDelete->key > key) {
+                nodeToDelete = nodeToDelete->left;
+            } else {
+                nodeToDelete = nodeToDelete->right;
+            }
+        }
+        this->deleteByNode(nodeToDelete);
     }
     friend std::ostream& operator<<(std::ostream& os, const AVLDict& avl) {
         return os << avl.head << endl;
@@ -187,7 +193,7 @@ class AVLDict {
     void printByOrder() {
         printByOrder(this->head);
     }
-};
+};/*
 int main() {
     AVLDict<int, int> t;
     t.insert(77, 77);
@@ -195,8 +201,12 @@ int main() {
     for (int i = 0; i < 100; i++) {
         int x = rand() % 500;
         t.insert(x, x);
-        // cout << t.getHeight() << "," << i << "," << t.size << endl;
     }
+    auto a =t.insert(2043,205);
+
     t.deleteByKey(77);
+    t.deleteByNode(a);
+    cout << a->key << endl;
     t.printByOrder();
 }
+*/

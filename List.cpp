@@ -36,8 +36,3 @@ class List {
         this->last = temp;
     }
 };
-int main() {
-    List l(5);
-    l.push_back(2);
-    l.push_back(4);
-}
