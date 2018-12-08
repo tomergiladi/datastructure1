@@ -12,35 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e833dd-ebb6-416a-a16a-f4da28fb9b2e" name="Default Changelist" comment="finish testing">
-      <change afterPath="$PROJECT_DIR$/ImageSystem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageSystem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsexceptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vovatests/vMisc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vovatests/vcatch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vovatests/vmain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vovatests/vtests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library1Test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library1Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sagitests/tests_for_part_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tzlizTest2/Library2Test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tzlizTest2/Library2Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tzlizTest2/testUtils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVL.h" beforeDir="false" afterPath="$PROJECT_DIR$/AVL.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/AVL.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/List.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/longarrow.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure1.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/datastructure1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/datastructure1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/datastructure1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/datastructure1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longarrow.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -226,11 +209,6 @@
               <item name="datastructure1" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="datastructure1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure1" type="462c0819:PsiDirectoryNode" />
-              <item name="tzlizTest2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -278,12 +256,20 @@
       <workItem from="1543970066674" duration="21000" />
       <workItem from="1543970088515" duration="164000" />
       <workItem from="1543970253728" duration="39914000" />
-      <workItem from="1544197858244" duration="11360000" />
+      <workItem from="1544197858244" duration="12683000" />
     </task>
+    <task id="LOCAL-00001" summary="finish testing">
+      <created>1544275823695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544275823695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65885000" />
+    <option name="totallyTimeSpent" value="67208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,9 +282,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26289397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26289397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,10 +295,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32908162" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32908162" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32908162" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.4247449" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4247449" />
       <window_info anchor="bottom" id="CMake" order="13" weight="0.32908162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
