@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Tomer/CLionProjects/datastructure1/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -55,6 +56,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Tomer/CLionProjects/datastructure1/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -80,16 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/List.cpp">
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/AVL.h">
 			<Option target="datastructure1"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/library1.cpp">
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/ImageSystem.cpp">
 			<Option target="datastructure1"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/library1.h">
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/ImageSystem.h">
 			<Option target="datastructure1"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/longarrow.cpp">
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/List.h">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/dsexceptions.h">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/library2.cpp">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/library2.h">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/tzlizTest2/Library2Test.cpp">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/tzlizTest2/Library2Test.h">
+			<Option target="datastructure1"/>
+		</Unit>
+		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/tzlizTest2/testUtils.h">
 			<Option target="datastructure1"/>
 		</Unit>
 		<Unit filename="C:/Users/Tomer/CLionProjects/datastructure1/CMakeLists.txt">

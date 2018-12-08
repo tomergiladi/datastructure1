@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Tomer/CLionProjects/datastructure1/List.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/List.cpp.obj"
-  "C:/Users/Tomer/CLionProjects/datastructure1/library1.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/library1.cpp.obj"
-  "C:/Users/Tomer/CLionProjects/datastructure1/longarrow.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/longarrow.cpp.obj"
+  "C:/Users/Tomer/CLionProjects/datastructure1/ImageSystem.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj"
+  "C:/Users/Tomer/CLionProjects/datastructure1/library2.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/library2.cpp.obj"
+  "C:/Users/Tomer/CLionProjects/datastructure1/tzlizTest2/Library2Test.cpp" "C:/Users/Tomer/CLionProjects/datastructure1/cmake-build-debug/CMakeFiles/datastructure1.dir/tzlizTest2/Library2Test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
   )
 
 # Targets to which this target links.

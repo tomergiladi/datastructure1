@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/datastructure1.dir/List.cpp.obj"
-  "CMakeFiles/datastructure1.dir/longarrow.cpp.obj"
-  "CMakeFiles/datastructure1.dir/library1.cpp.obj"
+  "CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj"
+  "CMakeFiles/datastructure1.dir/library2.cpp.obj"
+  "CMakeFiles/datastructure1.dir/tzlizTest2/Library2Test.cpp.obj"
   "datastructure1.pdb"
   "datastructure1.exe"
   "datastructure1.exe.manifest"
