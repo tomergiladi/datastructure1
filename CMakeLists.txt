@@ -13,6 +13,6 @@ add_executable(datastructure1
         library2.cpp
         library2.h
         List.h
-        tzlizTest2/Library2Test.cpp
-        tzlizTest2/Library2Test.h
-        tzlizTest2/testUtils.h)
+        library1List.cpp)
+
+

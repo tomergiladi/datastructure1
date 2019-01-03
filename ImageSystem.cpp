@@ -22,6 +22,7 @@ unTaggedSegments(ListDict<int,int>()){
         }
     }
     catch(...) {
+        // if failed rethrow an error
         delete [] segments;
         throw std::bad_alloc();
     }
@@ -53,7 +54,7 @@ void Image::getAllUnLabeledSegments(int** segments,int* numOfSegments){
         *segments= nullptr;
         throw Failure();
     }
-    *segments = (int*)malloc(*numOfSegments * sizeof(int));
+    *segments = static_cast<int*>(malloc(*numOfSegments * sizeof(int)));
     if(*segments == nullptr){
         throw std::bad_alloc();
     }
@@ -92,12 +93,14 @@ void ImageSystem::addImage(int imageID){
         throw InvalidInput();
     }
     try{
-        this->images.find(imageID);
+        this->images[imageID];
     }
     catch (Failure& ex){
+        // if the image is not in the system
         this->images.insert(imageID,shared_ptr<Image>(new Image(imageID,this->numOfSegments)));
         return;
     }
+    // if the image is in the system
     throw Failure();
 
 }
@@ -111,25 +114,25 @@ void ImageSystem::addLabel(int imageID,int segmentID,int label){
     if(segmentID <0 || segmentID >=this->numOfSegments || imageID <=0 || label<=0){
         throw InvalidInput();
     }
-    this->images.find(imageID)->tagSegment(segmentID,label);
+    this->images[imageID]->tagSegment(segmentID,label);
 }
 int ImageSystem::getLabel(int imageID,int segmentID){
     if(segmentID <0 || segmentID >=this->numOfSegments || imageID <=0){
         throw InvalidInput();
     }
-    return this->images.find(imageID)->getLabel(segmentID);
+    return this->images[imageID]->getLabel(segmentID);
 }
 void ImageSystem::deleteLabel(int imageID,int segmentID){
     if(segmentID <0 || segmentID >=this->numOfSegments || imageID <=0){
         throw InvalidInput();
     }
-    this->images.find(imageID)->unTagSegment(segmentID);
+    this->images[imageID]->unTagSegment(segmentID);
 }
 void ImageSystem::getAllUnLabeledSegments(int imageID,int** segments,int* numOfSegments){
     if(imageID <=0 || segments == nullptr || numOfSegments == nullptr){
         throw InvalidInput();
     }
-    this->images.find(imageID)->getAllUnLabeledSegments(segments,numOfSegments);
+    this->images[imageID]->getAllUnLabeledSegments(segments,numOfSegments);
 }
 void ImageSystem::getAllSegmentsByLabel(int label,int **images,int** segments,int* numOfSegments){
     if(label<=0 || images== nullptr || segments == nullptr || numOfSegments == nullptr){
@@ -147,8 +150,11 @@ void ImageSystem::getAllSegmentsByLabel(int label,int **images,int** segments,in
         *images = nullptr;
         return;
     }
+
     *images = static_cast<int*>(malloc(size * sizeof(int)));
     *segments = static_cast<int*>(malloc(size * sizeof(int)));
+
+    // if the allocation fail clear memory and return error
     if(*images == nullptr || *segments == nullptr){
         free(*images);
         free(*segments);

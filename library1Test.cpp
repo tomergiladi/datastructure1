@@ -227,26 +227,7 @@ static void quit_hasNullAfter() {
     Quit(&newDs);
     assertTest(newDs == NULL);
 }
-/*
+
 int main(){
     Library1Test la;
-    la.test();
-    auto DS = Init();
-    int * a= new int[200];
-    a[0]=77;
-    void * node;
-    Add(DS,77,a,&node);
-    for (int i = 1; i < 100; i++) {
-        int x = rand() % 500;
-        a[i] = x;
-        Add(DS,x,a+i,&node);
-    }
-    a[100]=2043;
-    Add(DS,2043,a+100,&node);
-    Delete(DS,218);
-    Delete(DS,77);
-    Delete(DS,495);
-    DeleteByPointer(DS,node);
-    return 0;
 }
- */

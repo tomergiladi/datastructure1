@@ -32,13 +32,6 @@ namespace AVL {
                 :value(value), parent(parent), key(key),  height(0), tree(tree) {
         }
 
-        friend std::ostream &operator<<(std::ostream &os, shared_ptr<Node> curr) {
-            if (curr)
-                os << "{" << curr->key << ":" << curr->value << ", " << curr->height << "} (" << curr->left << ") ("
-                   << curr->right << ")";
-            return os;
-        }
-
         void setHeight() {
             int left_height = this->left->getHeight();
             int right_height = this->right->getHeight();
@@ -246,7 +239,7 @@ namespace AVL {
                 throw Failure();
             }
         }
-        U find(const T& key){
+        U& find(const T& key){
             auto node = this->head;
             while (node && node->key != key) {
                 if (node->key > key) {
@@ -262,9 +255,8 @@ namespace AVL {
                 throw Failure();
             }
         }
-
-        friend std::ostream &operator<<(std::ostream &os, const AVLDict &avl) {
-            return os << avl.head << endl;
+        U& operator[](const T& key){
+            return this->find(key);
         }
 
         int getHeight() {
@@ -273,10 +265,6 @@ namespace AVL {
 
         int getSize() {
             return this->size;
-        }
-
-        void printByOrder() {
-            printByOrder(this->head);
         }
         shared_ptr<Node<T,U>> getFirst(){
             auto node = this->head;
@@ -289,22 +277,5 @@ namespace AVL {
             return node;
         }
     };
-}/*
- *
-int main() {
-    AVLDict<int, int> t;
-    t.insert(77, 77);
-    srand(0);
-    for (int i = 0; i < 100; i++) {
-        int x = rand() % 500;
-        t.insert(x, x);
-    }
-    auto a =t.insert(2043,205);
-
-    t.deleteByKey(77);
-    t.deleteByNode(a);
-    cout << a->key << endl;
-    t.printByOrder();
 }
-*/
 #endif

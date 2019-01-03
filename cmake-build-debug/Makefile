@@ -149,6 +149,33 @@ ImageSystem.cpp.s:
 	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/ImageSystem.cpp.s
 .PHONY : ImageSystem.cpp.s
 
+library1List.obj: library1List.cpp.obj
+
+.PHONY : library1List.obj
+
+# target to build an object file
+library1List.cpp.obj:
+	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/library1List.cpp.obj
+.PHONY : library1List.cpp.obj
+
+library1List.i: library1List.cpp.i
+
+.PHONY : library1List.i
+
+# target to preprocess a source file
+library1List.cpp.i:
+	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/library1List.cpp.i
+.PHONY : library1List.cpp.i
+
+library1List.s: library1List.cpp.s
+
+.PHONY : library1List.s
+
+# target to generate assembly for a file
+library1List.cpp.s:
+	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/library1List.cpp.s
+.PHONY : library1List.cpp.s
+
 library2.obj: library2.cpp.obj
 
 .PHONY : library2.obj
@@ -176,33 +203,6 @@ library2.cpp.s:
 	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/library2.cpp.s
 .PHONY : library2.cpp.s
 
-tzlizTest2/Library2Test.obj: tzlizTest2/Library2Test.cpp.obj
-
-.PHONY : tzlizTest2/Library2Test.obj
-
-# target to build an object file
-tzlizTest2/Library2Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/tzlizTest2/Library2Test.cpp.obj
-.PHONY : tzlizTest2/Library2Test.cpp.obj
-
-tzlizTest2/Library2Test.i: tzlizTest2/Library2Test.cpp.i
-
-.PHONY : tzlizTest2/Library2Test.i
-
-# target to preprocess a source file
-tzlizTest2/Library2Test.cpp.i:
-	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/tzlizTest2/Library2Test.cpp.i
-.PHONY : tzlizTest2/Library2Test.cpp.i
-
-tzlizTest2/Library2Test.s: tzlizTest2/Library2Test.cpp.s
-
-.PHONY : tzlizTest2/Library2Test.s
-
-# target to generate assembly for a file
-tzlizTest2/Library2Test.cpp.s:
-	$(MAKE) -f CMakeFiles\datastructure1.dir\build.make CMakeFiles/datastructure1.dir/tzlizTest2/Library2Test.cpp.s
-.PHONY : tzlizTest2/Library2Test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,12 +215,12 @@ help:
 	@echo ... ImageSystem.obj
 	@echo ... ImageSystem.i
 	@echo ... ImageSystem.s
+	@echo ... library1List.obj
+	@echo ... library1List.i
+	@echo ... library1List.s
 	@echo ... library2.obj
 	@echo ... library2.i
 	@echo ... library2.s
-	@echo ... tzlizTest2/Library2Test.obj
-	@echo ... tzlizTest2/Library2Test.i
-	@echo ... tzlizTest2/Library2Test.s
 .PHONY : help
 
 

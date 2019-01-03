@@ -56,57 +56,60 @@ include CMakeFiles/datastructure1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/datastructure1.dir/flags.make
 
-CMakeFiles/datastructure1.dir/List.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
-CMakeFiles/datastructure1.dir/List.cpp.obj: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/datastructure1.dir/List.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\List.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\List.cpp
+CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
+CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj: CMakeFiles/datastructure1.dir/includes_CXX.rsp
+CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj: ../ImageSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\ImageSystem.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\ImageSystem.cpp
 
-CMakeFiles/datastructure1.dir/List.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/List.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\List.cpp > CMakeFiles\datastructure1.dir\List.cpp.i
+CMakeFiles/datastructure1.dir/ImageSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/ImageSystem.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\ImageSystem.cpp > CMakeFiles\datastructure1.dir\ImageSystem.cpp.i
 
-CMakeFiles/datastructure1.dir/List.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/List.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\List.cpp -o CMakeFiles\datastructure1.dir\List.cpp.s
+CMakeFiles/datastructure1.dir/ImageSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/ImageSystem.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\ImageSystem.cpp -o CMakeFiles\datastructure1.dir\ImageSystem.cpp.s
 
-CMakeFiles/datastructure1.dir/longarrow.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
-CMakeFiles/datastructure1.dir/longarrow.cpp.obj: ../longarrow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/datastructure1.dir/longarrow.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\longarrow.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\longarrow.cpp
+CMakeFiles/datastructure1.dir/library2.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
+CMakeFiles/datastructure1.dir/library2.cpp.obj: CMakeFiles/datastructure1.dir/includes_CXX.rsp
+CMakeFiles/datastructure1.dir/library2.cpp.obj: ../library2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/datastructure1.dir/library2.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\library2.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\library2.cpp
 
-CMakeFiles/datastructure1.dir/longarrow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/longarrow.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\longarrow.cpp > CMakeFiles\datastructure1.dir\longarrow.cpp.i
+CMakeFiles/datastructure1.dir/library2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/library2.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\library2.cpp > CMakeFiles\datastructure1.dir\library2.cpp.i
 
-CMakeFiles/datastructure1.dir/longarrow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/longarrow.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\longarrow.cpp -o CMakeFiles\datastructure1.dir\longarrow.cpp.s
+CMakeFiles/datastructure1.dir/library2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/library2.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\library2.cpp -o CMakeFiles\datastructure1.dir\library2.cpp.s
 
-CMakeFiles/datastructure1.dir/library1.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
-CMakeFiles/datastructure1.dir/library1.cpp.obj: ../library1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/datastructure1.dir/library1.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\library1.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\library1.cpp
+CMakeFiles/datastructure1.dir/library1List.cpp.obj: CMakeFiles/datastructure1.dir/flags.make
+CMakeFiles/datastructure1.dir/library1List.cpp.obj: CMakeFiles/datastructure1.dir/includes_CXX.rsp
+CMakeFiles/datastructure1.dir/library1List.cpp.obj: ../library1List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Miron\CLionProjects\datastructure1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/datastructure1.dir/library1List.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\datastructure1.dir\library1List.cpp.obj -c C:\Users\Miron\CLionProjects\datastructure1\library1List.cpp
 
-CMakeFiles/datastructure1.dir/library1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/library1.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\library1.cpp > CMakeFiles\datastructure1.dir\library1.cpp.i
+CMakeFiles/datastructure1.dir/library1List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/datastructure1.dir/library1List.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Miron\CLionProjects\datastructure1\library1List.cpp > CMakeFiles\datastructure1.dir\library1List.cpp.i
 
-CMakeFiles/datastructure1.dir/library1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/library1.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\library1.cpp -o CMakeFiles\datastructure1.dir\library1.cpp.s
+CMakeFiles/datastructure1.dir/library1List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/datastructure1.dir/library1List.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Miron\CLionProjects\datastructure1\library1List.cpp -o CMakeFiles\datastructure1.dir\library1List.cpp.s
 
 # Object files for target datastructure1
 datastructure1_OBJECTS = \
-"CMakeFiles/datastructure1.dir/List.cpp.obj" \
-"CMakeFiles/datastructure1.dir/longarrow.cpp.obj" \
-"CMakeFiles/datastructure1.dir/library1.cpp.obj"
+"CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj" \
+"CMakeFiles/datastructure1.dir/library2.cpp.obj" \
+"CMakeFiles/datastructure1.dir/library1List.cpp.obj"
 
 # External object files for target datastructure1
 datastructure1_EXTERNAL_OBJECTS =
 
-datastructure1.exe: CMakeFiles/datastructure1.dir/List.cpp.obj
-datastructure1.exe: CMakeFiles/datastructure1.dir/longarrow.cpp.obj
-datastructure1.exe: CMakeFiles/datastructure1.dir/library1.cpp.obj
+datastructure1.exe: CMakeFiles/datastructure1.dir/ImageSystem.cpp.obj
+datastructure1.exe: CMakeFiles/datastructure1.dir/library2.cpp.obj
+datastructure1.exe: CMakeFiles/datastructure1.dir/library1List.cpp.obj
 datastructure1.exe: CMakeFiles/datastructure1.dir/build.make
 datastructure1.exe: CMakeFiles/datastructure1.dir/linklibs.rsp
 datastructure1.exe: CMakeFiles/datastructure1.dir/objects1.rsp
